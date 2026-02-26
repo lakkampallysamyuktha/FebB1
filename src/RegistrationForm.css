@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient();
+  background: linear-gradient(135deg, #232526, #414345);
 }
 
 .form-container {
