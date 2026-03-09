@@ -7,6 +7,7 @@ export default function App() {
   return (
     <div>
       <RegistrationForm />
+     
       {/* <h1 style={{ textAlign: "center" }}>USER DETAILS</h1>
 
       <table
