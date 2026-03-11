@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
   margin:0;
   font-family:Arial;
@@ -19,7 +24,8 @@ body{
   padding:20px;
   margin:15px 0;
   border-radius:10px;
-  box-shadow:0 3px 10px rgba(0,0,0,0.1);
+  box-shadow:0 3px 10px rgba(43, 179, 203, 0.945);
+  color: #1e77d0;
 }
 
 .form{
@@ -38,14 +44,14 @@ input{
   padding:8px 12px;
   margin-top:10px;
   border:none;
-  background:#0077ff;
+  background:#1ed054;
   color:white;
   border-radius:6px;
   cursor:pointer;
 }
 
 .btn:hover{
-  background:#005fcc;
+  background:#3c9509;
 }
 
 .items{

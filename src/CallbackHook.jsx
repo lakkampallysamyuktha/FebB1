@@ -11,8 +11,8 @@ export default function CallbackHook() {
   }, [number]);
 
   const themeStyle = {
-    backgroundColor: darkTheme ? "#222" : "#f5f5f5",
-    color: darkTheme ? "#fff" : "#000",
+    backgroundColor: darkTheme ? "#070c0e" : "#f5f5f5",
+    color: darkTheme ? "#fff" : "#2675dc",
     padding: "15px",
     borderRadius: "8px"
   };
@@ -33,7 +33,7 @@ export default function CallbackHook() {
         className="btn"
         onClick={() => setDarkTheme(!darkTheme)}
       >
-        Toggle Theme
+         {darkTheme ? "Light Theme" : "Dark Theme"}
       </button>
 
       <CallbackChild getNumbers={getNumbers} />
