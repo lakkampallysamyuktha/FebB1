@@ -1,0 +1,102 @@
+/* ====== APP BACKGROUND ====== */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Light Mode */
+.app-container.light {
+  background: linear-gradient(135deg, #eb74db, #acb6e5);
+}
+
+/* Dark Mode */
+.app-container.dark {
+  background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+/* ====== FORM CARD ====== */
+.form-card {
+  width: 380px;
+  padding: 35px;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  transition: 0.4s ease;
+  color: white;
+}
+
+/* Heading */
+.form-card h2 {
+  margin-bottom: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* ====== INPUT FIELDS ====== */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+/* Light input style */
+.app-container.light input {
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+/* Dark input style */
+.app-container.dark input {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+/* Focus effect */
+input:focus {
+  transform: scale(1.03);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+/* ====== BUTTON ====== */
+.theme-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 12px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+/* Light Mode Button */
+.app-container.light .theme-btn {
+  background: #ffffff;
+  color: #333;
+}
+
+/* Dark Mode Button */
+.app-container.dark .theme-btn {
+  background: #00c6ff;
+  background: linear-gradient(45deg, hsl(321, 100%, 50%), #0072ff);
+  color: white;
+}
+
+/* Button Hover */
+.theme-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}

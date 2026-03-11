@@ -1,0 +1,57 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f2f4f8;
+}
+
+.app{
+  width:600px;
+  margin:auto;
+  padding:20px;
+}
+
+.title{
+  text-align:center;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  margin:15px 0;
+  border-radius:10px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.form{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+input{
+  padding:8px;
+  border:1px solid #ccc;
+  border-radius:6px;
+}
+
+.btn{
+  padding:8px 12px;
+  margin-top:10px;
+  border:none;
+  background:#0077ff;
+  color:white;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.btn:hover{
+  background:#005fcc;
+}
+
+.items{
+  margin-top:10px;
+}
+
+.item{
+  padding:5px;
+}

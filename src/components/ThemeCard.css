@@ -1,0 +1,56 @@
+.container {
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark {
+  background-color: #222;
+  color: white;
+}
+
+button {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.card {
+  width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.dark .card {
+  background-color: #333;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.like-section {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.heart {
+  fill: gray;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.heart.liked {
+  fill: red;
+}
