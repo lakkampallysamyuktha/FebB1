@@ -26,8 +26,8 @@ function Contact() {
       {/* Company Details */}
       <p>
         Email:{" "}
-        <a href="mailto:myntra.support@gmail.com">
-          myntra.support@gmail.com
+        <a href="mailto:AMart.support@gmail.com">
+          AMart.support@gmail.com
         </a>
       </p>
       <p>Phone: +91 9876543210</p>

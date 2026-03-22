@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Navbar({ setSearch }) {
   return (
     <div className="navbar">
-      <h2>Myntra</h2>
+      <h2>AMart</h2>
 
       <div className="menu">
         <Link to="/">Home</Link>
