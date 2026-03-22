@@ -1,11 +1,11 @@
-/* ===== GLOBAL ===== */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f5f5f5;
 }
 
-/* ===== NAVBAR ===== */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -41,7 +41,7 @@ body {
   border-radius: 5px;
 }
 
-/* ===== GRID ===== */
+
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -49,7 +49,7 @@ body {
   padding: 20px;
 }
 
-/* ===== PRODUCT CARD ===== */
+
 .card {
   background: white;
   border-radius: 10px;
@@ -77,7 +77,6 @@ body {
   margin: 5px 0;
 }
 
-/* ===== SIZE BUTTONS (FIXED 🔥) ===== */
 .sizes {
   display: flex;
   justify-content: center;
@@ -100,7 +99,7 @@ body {
   border-color: #ff3f6c;
 }
 
-/* ACTIVE SIZE */
+
 .active-size {
   background: #ff3f6c;
   color: white;
@@ -108,7 +107,7 @@ body {
   transform: scale(1.1);
 }
 
-/* ===== BUTTON ===== */
+
 .card button {
   width: 100%;
   padding: 8px;
@@ -125,12 +124,12 @@ body {
   background: #e7335a;
 }
 
-/* ADD TO CART SUCCESS */
+
 .added-btn {
   background: green !important;
 }
 
-/* WISHLIST BUTTON */
+
 .card button:last-child {
   background:  #ff3f6c;
 }
@@ -139,7 +138,6 @@ body {
   background:  #ff3f6c;
 }
 
-/* ===== CART ===== */
 .cart-container {
   padding: 20px;
 }
@@ -160,7 +158,7 @@ body {
   object-fit: contain;
 }
 
-/* ===== QUANTITY ===== */
+
 .qty-box {
   display: flex;
   align-items: center;
@@ -184,7 +182,6 @@ body {
   cursor: not-allowed;
 }
 
-/* ===== CHECKOUT ===== */
 .checkout-btn {
   margin-top: 20px;
   padding: 12px;
@@ -199,7 +196,7 @@ body {
   background: #e7335a;
 }
 
-/* ===== LOGIN ===== */
+
 .auth {
   display: flex;
   flex-direction: column;
@@ -220,7 +217,7 @@ body {
   border: none;
 }
 
-/* ===== RESPONSIVE ===== */
+
 @media (max-width: 900px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
@@ -241,7 +238,7 @@ body {
   }
 
 }
-/* ===== CONTACT PAGE ===== */
+
 .contact-container {
   padding: 40px;
   text-align: center;

@@ -22,42 +22,40 @@ function Cart() {
       {cart.map(item => (
         <div key={item.id} className="cart-item">
 
-          {/* Image */}
           <img src={item.thumbnail} alt={item.title} />
 
           <div>
             <h4>{item.title}</h4>
             <p>₹ {item.price}</p>
 
-            {/* Quantity Controls */}
+        
             <div className="qty-box">
               <button onClick={() => dispatch({ type: "DECREASE", payload: item })}>
-  -
-</button>
+              -
+             </button>
 
               <span>{item.qty}</span>
 
-          <button onClick={() => dispatch({ type: "ADD", payload: item })}>
-  +
-</button>
-            </div>
+             <button onClick={() => dispatch({ type: "ADD", payload: item })}>
+               +
+             </button>
+             </div>
 
-            {/* Remove */}
-            <button
+           
+             <button
               onClick={() =>
                 dispatch({ type: "REMOVE", payload: item.id })
               }
-            >
+             >
               Remove
             </button>
           </div>
         </div>
       ))}
 
-      {/* Total */}
+    
       <h3>Total: ₹ {total}</h3>
 
-      {/* Checkout */}
       <button
         className="checkout-btn"
         onClick={() => navigate("/checkout")}

@@ -7,12 +7,12 @@ function Contact() {
     message: ""
   });
 
-  // handle input change
+
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  // handle submit
+
   const handleSubmit = (e) => {
     e.preventDefault();
     alert("Message Sent Successfully!");
@@ -23,7 +23,7 @@ function Contact() {
     <div className="contact-container">
       <h2>Contact Us</h2>
 
-      {/* Company Details */}
+    
       <p>
         Email:{" "}
         <a href="mailto:AMart.support@gmail.com">
@@ -32,7 +32,7 @@ function Contact() {
       </p>
       <p>Phone: +91 9876543210</p>
 
-      {/* Contact Form */}
+ 
       <form onSubmit={handleSubmit} className="contact-form">
         <input
           type="text"

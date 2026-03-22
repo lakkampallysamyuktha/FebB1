@@ -17,14 +17,10 @@ function Wishlist() {
           <img src={item.thumbnail} />
 
           <h4>{item.title}</h4>
-          <p>₹ {item.price}</p>
-
-          {/* ✅ Move to Cart */}
+          <p>₹ {item.price}</p>       
           <button onClick={() => dispatch({ type: "ADD", payload: item })}>
             Move to Cart
           </button>
-
-          {/* ✅ Remove */}
           <button onClick={() => toggleWishlist(item)}>
             Remove ❤️
           </button>
